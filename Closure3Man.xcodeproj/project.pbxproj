@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C2C8616B218AE091009B9A07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C8616A218AE091009B9A07 /* AppDelegate.swift */; };
-		C2C8616D218AE091009B9A07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C8616C218AE091009B9A07 /* ViewController.swift */; };
+		C2C8616D218AE091009B9A07 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C8616C218AE091009B9A07 /* FirstViewController.swift */; };
 		C2C86170218AE091009B9A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C8616E218AE091009B9A07 /* Main.storyboard */; };
 		C2C86172218AE092009B9A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C86171218AE092009B9A07 /* Assets.xcassets */; };
 		C2C86175218AE092009B9A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C86173218AE092009B9A07 /* LaunchScreen.storyboard */; };
+		C2C8617D218AE19D009B9A07 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C8617C218AE19D009B9A07 /* SecondViewController.swift */; };
+		C2C8617F218AE1A6009B9A07 /* LastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C8617E218AE1A6009B9A07 /* LastViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C2C86167218AE091009B9A07 /* Closure3Man.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Closure3Man.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C8616A218AE091009B9A07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2C8616C218AE091009B9A07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2C8616C218AE091009B9A07 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		C2C8616F218AE091009B9A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2C86171218AE092009B9A07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2C86174218AE092009B9A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2C86176218AE092009B9A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C8617C218AE19D009B9A07 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C2C8617E218AE1A6009B9A07 /* LastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				C2C8616A218AE091009B9A07 /* AppDelegate.swift */,
-				C2C8616C218AE091009B9A07 /* ViewController.swift */,
+				C2C8616C218AE091009B9A07 /* FirstViewController.swift */,
+				C2C8617C218AE19D009B9A07 /* SecondViewController.swift */,
+				C2C8617E218AE1A6009B9A07 /* LastViewController.swift */,
 				C2C8616E218AE091009B9A07 /* Main.storyboard */,
 				C2C86171218AE092009B9A07 /* Assets.xcassets */,
 				C2C86173218AE092009B9A07 /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2C8616D218AE091009B9A07 /* ViewController.swift in Sources */,
+				C2C8617D218AE19D009B9A07 /* SecondViewController.swift in Sources */,
+				C2C8616D218AE091009B9A07 /* FirstViewController.swift in Sources */,
+				C2C8617F218AE1A6009B9A07 /* LastViewController.swift in Sources */,
 				C2C8616B218AE091009B9A07 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
